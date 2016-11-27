@@ -1,19 +1,5 @@
-/*~function (pro) {
-    function queryURLParameter() {
-        var reg = /([^?=&#]+)=([^?=&#]+)/g,
-            obj = {}
-        this.replace(reg, function () {
-            obj[arguments[1]] = arguments[2]
-        });
-        return obj;
-    }
-
-    pro.queryURLParameter = queryURLParameter;
-}(String.prototype)*/
-
-
 var loadingRender = (function () {
-    var ary = ["background.png", "background2.png", "success_128px_1202883_easyicon.net.ico"];
+    var ary = ["11.png","12.jpg","123.png","12345.png","Angularjs.png","background.png","background2.png","blog.jpg","dui.PNG","for-you.png","Git.png","Gulp.png","haitao.jpg","html5.png","Iamskilled.png","IM-LIZHICHENG.png","jquery.png","js.png","mingchejie.jpg","MQHAUTO.jpg","music.svg","my-name.png","my.png","node.png","one-job.png","pao.jpg","pc-resule.jpg","QHAUTO.jpg","qinghong.png","React.png","shanshuitang.png","success_128px_1202883_easyicon.net.ico","swiper.png","tiao1.png","up.png","Webpack.png","wuhui.PNG","year.png","ying.PNG"];
     var $loading = $('#loading'),
         $progressEm = $loading.find('.progressEm');
     var step = 0,
@@ -33,7 +19,7 @@ var loadingRender = (function () {
                      window.setTimeout(function () {
                      $loading.css('display', 'none')
                      pageRender.init();
-                     }, 2000);
+                     }, 1500);
                      }
                 }
 
