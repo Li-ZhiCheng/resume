@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>李志成简历</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="简历,个人简历,移动端简历,H5简历,原创简历,创新简历,前端工程师简历,前端简历">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--[if lt IE 9]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <!--[endif]-->
+    <meta name="description"
+     content="LiZhiCheng-Resume 李志成个人移动端简历,版权所有！复制必究！">
+    <link type="x-icon" rel="icon" href="img/success_128px_1202883_easyicon.net.ico">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/Swiper/3.4.0/css/swiper.min.css" >
+    <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 计算rem-->
+    <script type="javascript">
+        document.documentElement.style.fontSize=document.documentElement.clientWidth/640*100+'px';
+    </script>
+</head>
+<body>
+<section class="loading" id="loading">
+    <div class="con">
+        <h1> 简历正在玩命加载中...</h1>
+        <h3> 请耐心等待哦</h3>
+    </div>
+    <div class="progress">
+        <em class="progressEm"></em>
+    </div>
+</section>
+<section class="main">
+    <div class="music">
+        <audio src="img/Pentatonix-Misbehavin.mp3" loop preload="none" id="mp3"></audio>
+    </div>
+    <div class="swiper-container page" id="page">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+                <img src="img/tiao1.png">
+                <img src="img/one-job.png">
+                <img src="img/my.png">
+                <img src="img/year.png">
+                <img src="img/IM-LIZHICHENG.png">
+                <img src="img/my-name.png">
+
+            </div>
+            <div class="swiper-slide slide2">
+                <img src="img/dui.PNG">
+                <img src="img/for-you.png">
+                <img src="img/ying.PNG">
+                <img src="img/html5.png">
+                <img src="img/js.png">
+                <img src="img/swiper.png">
+                <img src="img/jquery.png">
+                <img src="img/node.png">
+                <img src="img/React.png">
+                <img src="img/Angularjs.png">
+                <img src="img/Gulp.png">
+                <img src="img/Webpack.png">
+                <img src="img/Git.png">
+                <img src="img/Iamskilled.png">
+            </div>
+            <div class="swiper-slide slide3">
+           <div class="fontS">Production</div>
+
+                <!-- 庆红进口车主站-->
+                <div class="product">
+                    <span>庆红进口车主站</span>
+                </div>
+
+                <!-- 进口车移动站-->
+                <div class="product">
+                    <span>进口车移动站</span>
+                </div>
+
+                <!-- 名车街主站-->
+                <div class="product">
+                    <span>名车街主站</span>
+                </div>
+
+                <!-- 资和信海淘卡 -->
+                <div class="product">
+                    <span>资和信海淘卡</span>
+                </div>
+
+                <!-- 个人简历网站-->
+                <div class="product">
+                    <span>个人简历PC站</span>
+                </div>
+
+                <!-- 个人博客-->
+                <div class="product">
+                    <span>个人博客</span>
+                </div>
+            </div>
+            <div class="swiper-slide slide4">
+                <img src="img/wuhui.PNG">
+                <img src="img/qinghong.png">
+                <img src="img/shanshuitang.png">
+                <img src="img/11.png">
+                <div>· · ·</div>
+                <p>
+                    简历下载查询，请访问90df.cn/resume
+                </p>
+            </div>
+            <div class="swiper-slide slide5">
+                <div></div>
+                <p>
+                    我相信，写代码是一种修行，要想提升自己的道行，必须心无杂念，始终如一！宠辱不惊，慎思者而笃行...
+                </p>
+
+                <div class="content">
+                    <div class="left"></div>
+                    <div>Contact me</div>
+                    <div class="right"></div>
+                </div>
+                <img src="img/123.png">
+                <img src="img/12345.png">
+                <img src="img/pao.jpg">
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="arrow">
+    <img src="img/up.png">
+</section>
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/Swiper/3.4.0/js/swiper.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper(".swiper-container",{
+        direction : 'vertical',// 垂直方向移动
+        //scrollbar:'.swiper-scrollbar',//滑动显示滚动条，不滑动隐藏
+        loop : true,// 默认开启循环
+        onTransitionEnd :function(swiper){
+            //把原来的第一个滑块复制了一份放在最后的位置，
+            //把原来的最后一个滑块复制了一份放在第一个位置
+            var slides = swiper.slides;
+            var curIndex = swiper.activeIndex;
+            var lastIndexSlide = slides.length-1;//现在最后一个滑块
+            var trueIndexSlide = slides.length-2;//原来最后一个滑块
+            [].forEach.call(slides,function(item,index){
+                item.id = "";
+                if(curIndex == index){//对当前显示的滑块做判断
+                    switch (index){
+                        case 0:
+                            item.id = "page"+trueIndexSlide;
+                            break;
+                        case lastIndexSlide:
+                            item.id = "page1";
+                            break;
+                        default:
+                            item.id = "page"+curIndex;
+                    }
+                }
+
+            })
+
+        },
+    })
+
+
+    var music = document.querySelector(".music");
+    var mp3 = document.querySelector("#mp3");
+    window.setTimeout(function(){
+        mp3.play();
+        mp3.addEventListener("canplay",function(){
+            music.className = "music musicCur";
+        })
+    },2000)
+
+
+    music.addEventListener("click",function(){
+        //paused属性判断音频文件是播放的还是停止 beyond.paused=true说明音频文件目前是停止播放
+        //让音频文件播放play(),让音频文件停止是pause();
+        if(mp3.paused){//停止
+            mp3.play();
+            music.className = "music musicCur";
+        }else{
+            mp3.pause();
+            music.className = "music";
+            music.style.opacity = 1;
+        }
+    },false)
+</script>
+</body>
+</html>
